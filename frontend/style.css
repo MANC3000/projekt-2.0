@@ -1,4 +1,4 @@
-* {
+* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #000000;
-    color: white;
+    background: #ecc19c;
+    color: #000000;
 }
 
 /* NAVBAR */
@@ -16,56 +16,26 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background: #000000;
-    border-bottom: 1px solid #1e847f;
+    background: #ecc19c;
+    border-bottom: 2px solid #1e847f;
 }
 
 .logo {
-    color: #ecc19c;
+    color: #1e847f;
     font-size: 22px;
     font-weight: bold;
 }
 
 nav a {
-    color: white;
+    color: #000000;
     margin-left: 20px;
     text-decoration: none;
     transition: 0.3s;
+    font-weight: 500;
 }
 
 nav a:hover {
-    color: #ecc19c;
-}
-
-/* BUTTONS */
-.btn-primary {
-    background: #ecc19c;
-    color: black;
-    padding: 10px 18px;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 6px;
-    transition: 0.3s;
-}
-
-.btn-primary:hover {
-    background: #1e847f;
-    color: white;
-}
-
-.btn-secondary {
-    background: transparent;
-    border: 1px solid #1e847f;
-    color: white;
-    padding: 10px 18px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.btn-secondary:hover {
-    background: #1e847f;
+    color: #1e847f;
 }
 
 /* HERO */
@@ -76,21 +46,50 @@ nav a:hover {
     justify-content: center;
     text-align: center;
     padding: 40px;
+    background: #ecc19c;
 }
 
 .hero h1 {
     font-size: 48px;
-    color: #ecc19c;
+    color: #1e847f;
 }
 
 .hero p {
     margin-top: 10px;
-    color: #1e847f;
+    color: #000000;
     font-size: 18px;
 }
 
-.hero-buttons {
-    margin-top: 20px;
+/* BUTTONS */
+.btn-primary {
+    background: #1e847f;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #000000;
+    color: #ecc19c;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid #1e847f;
+    color: #000000;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #1e847f;
+    color: white;
 }
 
 /* FEATURES */
@@ -99,26 +98,29 @@ nav a:hover {
     justify-content: center;
     gap: 20px;
     padding: 60px;
+    background: #ecc19c;
 }
 
 .card {
-    background: #111;
+    background: white;
     padding: 20px;
     width: 250px;
     border-radius: 10px;
-    border: 1px solid #1e847f;
+    border: 2px solid #1e847f;
     transition: 0.3s;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    border-color: #ecc19c;
+    background: #1e847f;
+    color: white;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
-    border-top: 1px solid #1e847f;
-    color: #777;
+    border-top: 2px solid #1e847f;
+    color: #000000;
+    background: #ecc19c;
 }
